@@ -1,3 +1,11 @@
 packages:
-  - "apps/*"
-  - "packages/*"
+  - apps/*
+  - packages/*
+
+ignoredBuiltDependencies:
+  - '@prisma/engines'
+  - esbuild
+  - prisma
+
+onlyBuiltDependencies:
+  - '@prisma/client'
