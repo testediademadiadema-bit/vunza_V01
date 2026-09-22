@@ -1,0 +1,29 @@
+{
+  "name": "@vunza/web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@vunza/config": "workspace:*",
+    "@vunza/database": "workspace:*",
+    "@vunza/shared": "workspace:*",
+    "@vunza/types": "workspace:*",
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
